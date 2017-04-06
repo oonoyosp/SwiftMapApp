@@ -99,12 +99,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD982A581D5AC23F00141457 /* Build configuration list for PBXNativeTarget "SwiftMapApp" */;
 			buildPhases = (
-				AAA7641AB3FFDC82D79BF3DF /* 📦 Check Pods Manifest.lock */,
 				BD982A421D5AC23F00141457 /* Sources */,
 				BD982A431D5AC23F00141457 /* Frameworks */,
 				BD982A441D5AC23F00141457 /* Resources */,
-				8267B9CD27200A0BD8A3A43C /* 📦 Embed Pods Frameworks */,
-				F6702A42B2A28A0983E35826 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -162,54 +159,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		8267B9CD27200A0BD8A3A43C /* 📦 Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftMapApp/Pods-SwiftMapApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AAA7641AB3FFDC82D79BF3DF /* 📦 Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		F6702A42B2A28A0983E35826 /* 📦 Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftMapApp/Pods-SwiftMapApp-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BD982A421D5AC23F00141457 /* Sources */ = {
