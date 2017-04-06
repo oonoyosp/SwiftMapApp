@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  SwiftMapApp
 //
-//  Created by Natsumo Ikeda on 2016/08/10.
+//  Created by NIFTY on 2017/04/06.
 //  Copyright © 2016年 NIFTY Corporation. All rights reserved.
 //
 
